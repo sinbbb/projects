@@ -1,0 +1,148 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:layout_margin = "0px"
+    android:padding = "0px"
+    android:orientation="vertical"
+    tools:context="com.example.sec.msg_test.info">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight = "80"
+        android:layout_margin = "0px"
+        android:padding = "0px">
+
+        <FrameLayout
+            android:paddingTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+                <Button
+                    android:id="@+id/search_by_theme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="테마별 작품 검색하기"
+                    android:textSize="25dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:paddingTop="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="근처 작품목록 "
+                android:textSize="25dp" />
+        </FrameLayout>
+        <FrameLayout
+            android:paddingTop="190dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ListView
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent" />
+        </FrameLayout>
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width = "fill_parent"
+        android:layout_height = "0px"
+        android:layout_weight = "6"
+        android:layout_margin = "0px"
+        android:padding = "0px"></FrameLayout>
+    <LinearLayout
+        android:layout_width = "fill_parent"
+        android:layout_height="0px"
+        android:id = "@+id/menu"
+        android:layout_weight = "13"
+        android:layout_margin = "0px"
+        android:padding = "0px"
+        >
+
+        <FrameLayout
+            android:layout_width = "0px"
+            android:layout_height = "fill_parent"
+            android:layout_weight = "4.5"
+            android:layout_margin = "0px"
+            android:padding = "0px"></FrameLayout>
+
+        <ImageButton
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:id="@+id/info_bttn"
+            android:background="@drawable/info_bttn"
+            android:layout_weight = "26"
+            android:layout_margin = "0px"
+
+            />
+        <FrameLayout
+            android:layout_width = "0px"
+            android:layout_height = "fill_parent"
+            android:layout_weight = "5.5"
+            android:layout_margin = "0px"
+            android:padding = "0px"></FrameLayout>
+
+        <ImageButton
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:id="@+id/home_bttn"
+            android:background="@drawable/home_bttn"
+            android:layout_weight="26"
+            android:layout_margin = "0px"
+            />
+
+        <FrameLayout
+            android:layout_width = "0px"
+            android:layout_height = "fill_parent"
+            android:layout_weight = "5.5"
+            android:layout_margin = "0px"
+            android:padding = "0px"></FrameLayout>
+
+        <ImageButton
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:id="@+id/route_bttn"
+            android:background="@drawable/route_bttn"
+            android:layout_weight="26"
+            android:layout_margin = "0px"/>
+        <FrameLayout
+            android:layout_width = "0px"
+            android:layout_height = "fill_parent"
+            android:layout_weight = "4.5"
+            android:layout_margin = "0px"
+            android:padding = "0px"></FrameLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight = "1"
+        android:layout_margin = "0px"
+        android:padding = "0px"></FrameLayout>
+
+</LinearLayout>

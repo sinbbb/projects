@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background3" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="분단위 시간을 입력하세요."
+        android:textSize="30sp"
+        android:inputType="number"
+         />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputbtn"
+        android:layout_marginTop="62dp"
+        android:layout_toLeftOf="@+id/startbtn"
+        android:layout_toRightOf="@+id/inputbtn"
+        android:textSize="80sp" />
+
+    <ImageButton
+        android:id="@+id/inputbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/timer_input" 
+        />
+
+    <ImageButton
+        android:id="@+id/startbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/timer_start"
+         />
+
+</RelativeLayout>

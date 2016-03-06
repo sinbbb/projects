@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="time_array">
+        <item>르네상스</item>
+        <item>바로크</item>
+        <item>후기인상주의</item>
+    </string-array>
+</resources>

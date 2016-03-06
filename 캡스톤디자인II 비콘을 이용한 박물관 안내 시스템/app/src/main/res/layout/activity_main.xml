@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    android:layout_margin = "0px"
+    android:padding = "0px"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight = "80"
+        android:layout_margin = "0px"
+        android:padding = "0px"
+        android:background="@drawable/map_line">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:gravity="right">
+
+            <ImageButton
+                android:id="@+id/loc_bttn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/location"/>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width = "fill_parent"
+        android:layout_height = "0px"
+        android:layout_weight = "6"
+        android:layout_margin = "0px"
+        android:padding = "0px"></FrameLayout>
+    <LinearLayout
+        android:layout_width = "fill_parent"
+        android:layout_height="0px"
+        android:id = "@+id/menu"
+        android:layout_weight = "13"
+        android:layout_margin = "0px"
+        android:padding = "0px"
+        >
+
+        <FrameLayout
+            android:layout_width = "0px"
+            android:layout_height = "fill_parent"
+            android:layout_weight = "4.5"
+            android:layout_margin = "0px"
+            android:padding = "0px"></FrameLayout>
+
+        <ImageButton
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:id="@+id/info_bttn"
+            android:background="@drawable/info_bttn"
+            android:layout_weight = "26"
+            android:layout_margin = "0px"
+
+             />
+        <FrameLayout
+            android:layout_width = "0px"
+            android:layout_height = "fill_parent"
+            android:layout_weight = "5.5"
+            android:layout_margin = "0px"
+            android:padding = "0px"></FrameLayout>
+
+        <ImageButton
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:id="@+id/home_bttn"
+            android:background="@drawable/home_bttn"
+            android:layout_weight="26"
+            android:layout_margin = "0px"
+             />
+
+        <FrameLayout
+            android:layout_width = "0px"
+            android:layout_height = "fill_parent"
+            android:layout_weight = "5.5"
+            android:layout_margin = "0px"
+            android:padding = "0px"></FrameLayout>
+
+        <ImageButton
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:id="@+id/route_bttn"
+            android:background="@drawable/route_bttn"
+            android:layout_weight="26"
+            android:layout_margin = "0px"/>
+        <FrameLayout
+            android:layout_width = "0px"
+            android:layout_height = "fill_parent"
+            android:layout_weight = "4.5"
+            android:layout_margin = "0px"
+            android:padding = "0px"></FrameLayout>
+
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight = "1"
+        android:layout_margin = "0px"
+        android:padding = "0px"></FrameLayout>
+
+</LinearLayout>

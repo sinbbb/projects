@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="name">
+        <item>로레트의 마돈나</item>
+        <item>라 포르나리나</item>
+        <item>성모와 아기 예수</item>
+        <item>모나리자</item>
+        <item>바위 산의 성모</item>
+        <item>최후의 만찬</item>
+        <item>농부의 결혼식</item>
+        <item>장님을 이끄는 장님</item>
+        <item>물에서 구해지는 모세</item>
+        <item>아르카디아의 목자들</item>
+        <item>에코와 나르시스</item>
+        <item>실 잣는 사람들</item>
+        <item>시녀들</item>
+        <item>스페인 왕녀 마르가리타 테레사</item>
+        <item>레이스 뜨는 여인</item>
+        <item>우유 따르는 여인</item>
+        <item>진주 귀걸이를 한 소녀</item>
+        <item>십자가에 매달리신 예수</item>
+        <item>십자가에서 내려지는 예수</item>
+        <item>동방박사의 경배</item>
+        <item>해바라기</item>
+        <item>자화상</item>
+        <item>별이 빛나는 밤</item>
+        <item>세잔 부인의 초상</item>
+        <item>카드놀이하는 사람들</item>
+        <item>에스타크</item>
+        <item>알리스캉 풍경</item>
+        <item>타히티의 여인들</item>
+    </string-array>
+</resources>

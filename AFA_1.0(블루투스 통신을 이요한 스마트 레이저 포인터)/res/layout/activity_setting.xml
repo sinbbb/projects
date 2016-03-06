@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background3"  >
+
+    <ImageButton
+        android:id="@+id/sbp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="69dp"
+        android:background="@drawable/setting_sbp1" />
+
+    <ImageButton
+        android:id="@+id/sbp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sbp1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/setting_sbp2" />
+
+    <ImageButton
+        android:id="@+id/yp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/sbp1"
+        android:layout_below="@+id/sbp1"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/setting_yp1" />
+
+    <ImageButton
+        android:id="@+id/rp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/yp1"
+        android:layout_below="@+id/yp2"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/setting_rp1" />
+
+    <ImageButton
+        android:id="@+id/yp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/yp1"
+        android:layout_alignLeft="@+id/sbp2"
+        android:background="@drawable/setting_yp2" />
+
+    <ImageButton
+        android:id="@+id/rp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rp1"
+        android:layout_alignLeft="@+id/yp2"
+        android:background="@drawable/setting_rp2" />
+
+</RelativeLayout>

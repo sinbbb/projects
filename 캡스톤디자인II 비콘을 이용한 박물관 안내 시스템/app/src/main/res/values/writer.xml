@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="writer_array">
+        <item>라파엘로</item>
+        <item>레오나르도 다 빈치</item>
+        <item>브뢰헬</item>
+        <item>니콜라 푸생</item>
+        <item>벨라스케스</item>
+        <item>요하네스 베르메르</item>
+        <item>파울 루벤스</item>
+        <item>빈센트 반 고흐</item>
+        <item>폴 세잔</item>
+        <item>폴 고갱</item>
+    </string-array>
+</resources>
